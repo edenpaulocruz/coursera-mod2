@@ -1,0 +1,156 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 90%;
+    margin: auto;
+    font-family: Arial;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+div {
+  background-color: #999999;
+  border: 2px solid black;
+  margin: 20px 0 0 0;
+}
+
+p {
+  width: 90%;
+  margin: auto;
+  padding: 5%;
+  color: #000;
+  clear: both;
+}
+
+h3 {
+    text-align: center;
+    margin: 0;
+    width: 120px;
+    border: 2px solid #000000;
+    float: right;
+}
+
+.chicken h3 {
+    background-color: #d59898;
+}
+
+.beef h3 {
+    background-color: #c14543;
+    color: #ffffff;
+}
+
+.sushi h3 {
+    background-color: #e5d198;
+}
+
+/* Simple Responsive Framework. */
+.content {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border: none;
+}
+
+.content > div:nth-child(1) {
+    margin-left: 0;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+    .gd-lg-12, .gd-lg-11, .gd-lg-10, .gd-lg-9, .gd-lg-8, .gd-lg-7, .gd-lg-6, .gd-lg-5, .gd-lg-4, .gd-lg-3, .gd-lg-2, .gd-lg-1 {
+        margin-left: 2%;
+        float: left;
+    }
+    .gd-lg-1 {
+        width: 6.5%;
+    }
+    .gd-lg-2 {
+        width: 15%;
+    }
+    .gd-lg-3 {
+        width: 23.5%;
+    }
+    .gd-lg-4 {
+        width: 32%;
+    }
+    .gd-lg-5 {
+        width: 40.5%;
+    }
+    .gd-lg-6 {
+        width: 49%;
+    }
+    .gd-lg-7 {
+        width: 57.5%;
+    }
+    .gd-lg-8 {
+        width: 66%;
+    }
+    .gd-lg-9 {
+        width: 74.5%;
+    }
+    .gd-lg-10 {
+        width: 83%;
+    }
+    .gd-lg-11 {
+        width: 91.5%;
+    }
+    .gd-lg-12 {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+    .gd-md-12, .gd-md-11, .gd-md-10, .gd-md-9, .gd-md-8, .gd-md-7, .gd-md-6, .gd-md-5, .gd-md-4, .gd-md-3, .gd-md-2, .gd-md-1 {
+        margin-left: 2%;
+        float: left;
+    }    
+    .gd-md-1 {
+        width: 6.5%;
+    }
+    .gd-md-2 {
+        width: 15%;
+    }
+    .gd-md-3 {
+        width: 23.5%;
+    }
+    .gd-md-4 {
+        width: 32%;
+    }
+    .gd-md-5 {
+        width: 40.5%;
+    }
+    .gd-md-6 {
+        width: 49%;
+    }
+    .gd-md-7 {
+        width: 57.5%;
+    }
+    .gd-md-8 {
+        width: 66%;
+    }
+    .gd-md-9 {
+        width: 74.5%;
+    }
+    .gd-md-10 {
+        width: 83%;
+    }
+    .gd-md-11 {
+        width: 91.5%;
+    }
+    .gd-md-12 {
+        width: 100%;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}
